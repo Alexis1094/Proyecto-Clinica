@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Proyecto_0" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primario -->
+        <item name="colorPrimary">@color/primario</item>
+        <item name="colorPrimaryVariant">@color/primario</item>
+
+        <!-- Secundario -->
+        <item name="colorSecondary">@color/secundario</item>
+        <item name="colorSecondaryVariant">@color/secundario</item>
+
+    </style>
+
+    <style name="Theme.Proyecto_0" parent="Base.Theme.Proyecto_0" />
+
+    <style name="DialogAnimation">
+        <!-- Animaciones -->
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+
+</resources>

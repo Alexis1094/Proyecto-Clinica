@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home_icon"
+            android:icon="@drawable/home_icon"
+            android:title="Inicio"/>
+
+        <item
+            android:id="@+id/reser_icon"
+            android:icon="@drawable/reser_icon"
+            android:title="Reserva"/>
+
+        <item
+            android:id="@+id/hist_icon"
+            android:icon="@drawable/hist_icon"
+            android:title="Historial"/>
+
+        <item
+            android:id="@+id/user"
+            android:icon="@drawable/user"
+            android:title="Perfil"/>
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/logout_icon"
+                android:icon="@drawable/logout_icon"
+                android:title="Salir"/>
+        </menu>
+
+    </item>
+
+</menu>
